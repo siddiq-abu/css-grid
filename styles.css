@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    text-align: center;
+}
+
+.container{
+    width: 100%;
+    max-width: 1200px;
+    margin: 2rem auto;
+}
+
+.item{
+    background-image: url(./logo.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    width: 100%;
+    height: 15rem;
+
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+}
